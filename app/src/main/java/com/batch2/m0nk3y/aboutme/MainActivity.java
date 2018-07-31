@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 img.setImageResource(R.drawable.pp);
-                String name = "Hello there! \nI'm Minhaz Rahman \n ID:20161012010\n North Western University, Khulna";
-                txt.setText(name);
+                String id = "Hello there!\nI'm Minhaz Rahman\nID:20161012010\nNorth Western University, Khulna";
+                txt.setText(id);
             }
         });
     }
